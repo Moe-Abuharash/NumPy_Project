@@ -35,9 +35,8 @@ print('total fees were:', feesArray.sum())
 
 # Step 6: Using your fee array and salesArray, calculate how much profit Superstore made for each sale after paying credit card fees. Store this in a new array and print it.
 print("-----------------------------------------------   STEP SIX  -----------------------------------------------")
-profitarray = salesArray - feesArray
-print(profitarray)
-print('profit is:', profitarray.sum())
+profit_array = salesArray - feesArray
+print(profit_array)
 
 # Step 7: Print the sales only for the second and forth cash register
 print("-----------------------------------------------   STEP SEVEN  -----------------------------------------------")
@@ -57,5 +56,5 @@ print(salesArray)
 print("-----------------------------------------------   STEP NINE  -----------------------------------------------")
 
 print(salesArray)
-salesArray[2, 3] = 20.14
+salesArray[2:3] = 20.14
 print(salesArray)
